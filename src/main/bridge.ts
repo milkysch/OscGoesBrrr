@@ -31,7 +31,7 @@ export default class Bridge {
 
         setInterval(() => {
             this.pushToBio();
-        }, 1000/100); // default 1000/15, this value should be supported by The Handy
+        }, 1000/10); // default 1000/15, this value should be supported by The Handy
     }
 
     onOscAddKey = (key: string, value: OscValue) => {
